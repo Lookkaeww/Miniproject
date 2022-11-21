@@ -1,7 +1,5 @@
 class calculatehouse:
     def housenumber(number):
-        number = number.split("/")
-        number = number[0] + number[1]
         cal_3 = str(number)
         if len(cal_3) == 1:
             cal_2 = int(cal_3)

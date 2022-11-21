@@ -13,6 +13,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 database = SQLAlchemy(app)
 app.app_context().push()
 
+
 class Statement(database.Model):
     id = database.Column(database.Integer, primary_key=True)
     name = database.Column(database.String(50), primary_key=False)
